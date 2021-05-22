@@ -5,6 +5,7 @@ user
 - session_id VARCHAR(255) NOT NULL
 
 messages
+- id INT NOT NULL AUTO_INCREMENT
 - time_posting DATETIME NOT NULL
 - user_id VARCHAR(255) NOT NULL
 - text_message VARCHAR(255) NOT NULL
