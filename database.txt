@@ -1,0 +1,10 @@
+user
+- id INT NOT NULL AUTO_INCREMENT
+- name VARCHAR(255) NOT NULL
+- reg_time DATETIME NOT NULL
+- session_id VARCHAR(255) NOT NULL
+
+messages
+- time_posting DATETIME NOT NULL
+- user_id VARCHAR(255) NOT NULL
+- text_message VARCHAR(255) NOT NULL
